@@ -9,7 +9,7 @@ st.sidebar.markdown("# Examples Page")
 
 # Load in data, and cache it so we don't have to load in a lot of data on refresh.
 @st.cache
-def get_data():
+def get_data(): 
     return pd.read_csv("data.csv").drop(['_c0'],axis=1)
 df = get_data()
 

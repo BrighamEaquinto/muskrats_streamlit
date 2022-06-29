@@ -9,7 +9,7 @@ pip install streamlit
 or
 ```
 python -m pip install streamlit --user
-```
+``` 
 
 Then, make sure the other requirements for these pages are installed:
 ```
